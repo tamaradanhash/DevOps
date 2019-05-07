@@ -5,7 +5,7 @@ jobs:
       - image: circleci/openjdk:11-jdk
     environment:
       PROJECT_DOMAIN: tamaradanhash
-      PROJECT_NAME: DevOps
+      PROJECT_NAME: devops
     working_directory: ~/repo
     steps:
       - checkout
