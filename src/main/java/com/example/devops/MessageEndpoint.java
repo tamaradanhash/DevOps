@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class MessageEndpoint {
   @GetMapping
-  public String get(){
+  public String get() {
     return "Learning DevOps";
   }
 }
